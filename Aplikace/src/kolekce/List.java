@@ -32,7 +32,7 @@ public class List<T> implements IList<T> {
 
     @Override
     public boolean jePrazdny() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+       return aktualni == null;
     }
 
     @Override
