@@ -48,8 +48,8 @@ public class List<T> implements IList<T> {
 
         public Prvek() {
             this.dalsi = dalsi;
-            this.predchazejici = predchazejici;
-            this.data = data;
+            this.predchazejici = null;
+            this.data = null;
         }
     }
 
